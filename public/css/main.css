@@ -1,0 +1,16 @@
+.container-border {
+  border: #1de9b6 solid 2px;
+  background: #1de9b6;
+  margin-top: 80px;
+  padding: 0 30px;
+}
+.container-border h1 {
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+.container-border a {
+  width: 100%;
+}

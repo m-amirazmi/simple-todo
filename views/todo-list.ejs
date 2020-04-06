@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/head") %>
+  <body class="teal accent-1">
+    <div class="container">
+      <div class="container">
+        <div class="container container-border">
+          <div class="row">
+            <h1 class="grey-text text-lighten-4">TODOLIST</h1>
+            <a href="/add-todo" class="btn grey lighten-4 teal-text"
+              >Add Todo</a
+            >
+          </div>
+          <% allTodos.forEach((todo)=>{ %>
+          <div class="col m8">
+            <div class="card-panel cyan accent-1">
+              <span class="black-text"><%= todo.todoTask %></span>
+            </div>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
